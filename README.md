@@ -21,3 +21,5 @@ O projeto tem como finalidade a automaçao de processos mais simples da t.i
 # Status do projeto
 
 Marco 1: ambiente sendo configurado
+# DeskTI
+projeto de site para automoção de tarefas simples para o setor da TI

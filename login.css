@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    background: rgb(255, 174, 231);
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+h1, p {
+    text-align: center;
+    color: #005b5a;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+a {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: #005b5a;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #005b5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+1\. Usuário
+
+* Atributos: id, nome, email, senha e tipo de usuário.
+
+* Métodos: fazer login, recuperar senha, abrir e acompanhar solicitações.
+
+* Relaciona-se com: Equipamento e Solicitação de Suporte.
+
+2\. Administrador
+
+* Atributos: nível de permissão.
+
+* Métodos: gerenciar equipamentos, solicitações, horários e relatórios.
+
+* Relaciona-se com: Usuário (por herança).
+
+3\. Equipamento
+
+* Atributos: id, código, patrimônio, modelo, localização, responsável e estado.
+
+* Métodos: consultar informações, atualizar estado e solicitar manutenção.
+
+* Relaciona-se com: Solicitação de Suporte e Notificação.
+
+4\. Solicitação de Suporte
+
+* Atributos: id, código, descrição, categoria, status, data de criação e id do usuário.
+
+* Métodos: abrir solicitação, atualizar status, adicionar comentário e visualizar detalhes.
+
+* Relaciona-se com: Usuário e Equipamento.
+
+5\. Horário
+
+* Atributos: id, data, horário e responsável.
+
+* Métodos: reservar, cancelar e listar horários.
+
+6\. Notificação
+
+* Atributos: id, mensagem, tipo, data e id do usuário.
+
+* Métodos: enviar, marcar como lida e consultar.
+
+* Relaciona-se com: Equipamento.
+*

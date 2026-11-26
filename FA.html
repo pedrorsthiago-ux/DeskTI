@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Horario - DeskTI</title>
+    <link rel="stylesheet" href="FA.css">
+</head>
+<body>
+
+    <header>
+        <h1>DeskTI</h1>
+        <h2>Formulario De Agendamento De Horario Na TI</h2>
+    </header>
+
+    <main>
+        <h2>Agendamento De Atendimento</h2>
+        <p>Preencha Os Dados Requisitados Para Agendar Um Horario</p>
+
+        <form id="FormAgendamento">
+
+            <fieldset>
+                <legend>Dados Do Usuario</legend>
+
+                <label for="Nome">Nome Completo:</label>
+                <input type="text" id="Nome" name="Nome" placeholder="Digite Seu Nome" required minlength="5">
+
+                <label for="Email">E-mail:</label>
+                <input type="email" id="Email" name="Email" placeholder="Digite Seu E-mail" required>
+
+                <label for="Matricula">Matrícula:</label>
+                <input type="text" id="Matricula" name="Matricula" placeholder="Digite Sua Matricula" required>
+
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" id="Telefone" name="Telefone" placeholder="(00) 00000-0000" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informações Do Usuario</legend>
+
+                <label for="Servico">Tipos De Atendimento:</label>
+                <select id="Servico" name="Servico" required>
+                    <option value="">Selecione Uma Opção</option>
+                    <option value="manutencao">Manutenção De Computador</option>
+                    <option value="internet">Problemas Com Internet</option>
+                    <option value="sistemas">Problemas Com Sistemas</option>
+                    <option value="instalacao">Instalação De Programas</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="Data">Data desejada:</label>
+                <input type="date" id="Data" name="Data" required>
+
+                <label for="Horario">Horario Desejado:</label>
+                <select id="Horario" name="Horario" required>
+                    <option value="">Selecione um Horario</option>
+                    <option value="08:00">08:00</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Descrição do problema</legend>
+
+                <label for="Descricao">Explique O Motivo Do Atendimento:</label>
+                <textarea id="Descricao" name="Descricao" rows="10" maxlength="900" required placeholder="Descreva Seu Problema:"></textarea>
+            </fieldset>
+
+            <button type="submit">Solicitar Atendimento</button>
+            <button type="reset">Limpar Formulario</button>
+
+        </form>
+
+        <p id="Mensagem"></p>
+    </main>
+
+    <footer>
+        <p>DeskTI - Setor de Tecnologia da Informação</p>
+    </footer>
+
+    <script src="FA.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DeskTI - Consulta de Solicitações</title>
+
+    <link rel="stylesheet" href="consulta.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>DeskTI</h1>
+        <p>Consulta de Solicitações Técnicas</p>
+    </header>
+
+    <main>
+
+        <h2>Solicitações cadastradas</h2>
+        <p>Acompanhe as solicitações registradas no sistema.</p>
+
+        <div class="tabela-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Solicitante</th>
+                        <th>Tipo</th>
+                        <th>Equipamento</th>
+                        <th>Descrição</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>01</td>
+                        <td>Maria Silva</td>
+                        <td>Manutenção</td>
+                        <td>Computador</td>
+                        <td>Computador não está ligando.</td>
+                        <td><span class="pendente">Pendente</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>02</td>
+                        <td>João Santos</td>
+                        <td>Reserva</td>
+                        <td>Projetor</td>
+                        <td>Reserva para apresentação em sala.</td>
+                        <td><span class="concluido">Concluído</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>03</td>
+                        <td>Ana Oliveira</td>
+                        <td>Manutenção</td>
+                        <td>Notebook</td>
+                        <td>Problema na conexão com a internet.</td>
+                        <td><span class="andamento">Em andamento</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>04</td>
+                        <td>Pedro Costa</td>
+                        <td>Reserva</td>
+                        <td>Notebook</td>
+                        <td>Solicitação de empréstimo de notebook.</td>
+                        <td><span class="pendente">Pendente</span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="footer">
+            DeskTI © 2026 | DSTI
+            <p>Sistema de gerenciamento de solicitações técnicas.</p>
+        </div>
+
+    </main>
+
+</body>
+</html>

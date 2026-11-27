@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - DeskTI</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="/arquivos/FormLogin/login.css">
+
 </head>
 <body>
 
@@ -12,13 +13,13 @@
         <h1>DeskTI</h1>
         <p>Faça seu login</p>
 
-        <form id="loginForm">
+        <form id="loginForm" action="/login" method="POST">
 
             <label>E-mail institucional</label>
-            <input type="email" id="email" required>
+            <input type="email" id="email" name="email" required>
 
             <label>Senha</label>
-            <input type="password" id="senha" required>
+            <input type="password" id="senha" name="senha" required>
 
             <a href="#" id="esqueci">Esqueci minha senha</a>
 
@@ -29,6 +30,7 @@
         <p id="mensagem"></p>
     </div>
 
-    <script src="login.js"></script>
+    <script src="/arquivos/FormLogin/login.js"></script>
 </body>
 </html>
+```

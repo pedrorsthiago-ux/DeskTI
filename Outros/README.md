@@ -10,19 +10,22 @@ TI(tec. informatica)
 
 # Descrição
 
-O projeto tem como finalidade a automaçao de processos mais simples da t.i
+O projeto tem como finalidade facilitar a comunicação com o setor da TI e 
+automaçao de processos mais simples da t.i
 
 # Tecnologias utilizadas
 
 - Python
 - Flask
 - MySQL
+- Html, Css & JavaScript
 
 # Status do projeto
 
-Marco 1: ambiente sendo configurado
+Marco 4+5, formularios e banco de dados
+
 # DeskTI
-projeto de site para automoção de tarefas simples para o setor da TI
+projeto de site para o setor TI
 
 # fucionalidades planejadas
 - Resgistros de solitação para o setor de TI

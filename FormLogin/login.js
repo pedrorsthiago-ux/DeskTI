@@ -14,7 +14,3 @@ esqueci.addEventListener("click", function(event) {
         mensagem.textContent = "Se o e-mail for valido, você recebera um email para alterar sua senha.";
     }
 });
-
-formulario.addEventListener("submit", function(event) {
-    event.preventDefault();
-});
